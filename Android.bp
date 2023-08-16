@@ -194,6 +194,12 @@ dex_import {
 }
 
 dex_import {
+        name: "vendor.qti.hardware.sensorscalibrate-V1.0-java",
+        owner: "xiaomi",
+        jars: ["proprietary/system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
+}
+
+dex_import {
 	name: "com.fingerprints.extension",
 	owner: "xiaomi",
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
